@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: forest;
+}
+
+/* Main application background */
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #2f66ae 0%,
+    #42456c 45%,
+    #759194 100%
+  ) !important;
+}
+
+#root {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #f2f2f3 0%,
+    #181523 45%,
+    #b4e7ec 100%
+  ) !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
